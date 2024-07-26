@@ -4,6 +4,8 @@ class A {
 
 	int i = 10;
 
+	
+	
 }
 
 class B extends A {
