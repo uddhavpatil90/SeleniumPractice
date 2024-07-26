@@ -17,8 +17,8 @@ public class Select_Class {
 		Thread.sleep(2000);
 
 		
-		
-		//comment added to test gitHub changes
+		//new comment added
+		//added to test gitHub changes
 		WebElement stateDropdown = driver.findElement(By.xpath("//select[@id='state']"));
 
 		// Creating Object of Select Class
