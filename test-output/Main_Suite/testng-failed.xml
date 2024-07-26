@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Main_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="GoldenSanity_Test(failed)">
+    <classes>
+      <class name="class_54_TestNGParallelExecution.SanityChecks">
+        <methods>
+          <include name="verifyLoginButton"/>
+        </methods>
+      </class> <!-- class_54_TestNGParallelExecution.SanityChecks -->
+    </classes>
+  </test> <!-- GoldenSanity_Test(failed) -->
+  <test thread-count="5" parallel="classes" name="Regression_Test(failed)">
+    <classes>
+      <class name="class_54_TestNGParallelExecution.MyRegressionTest">
+        <methods>
+          <include name="SocialMediaLinksVerification"/>
+        </methods>
+      </class> <!-- class_54_TestNGParallelExecution.MyRegressionTest -->
+    </classes>
+  </test> <!-- Regression_Test(failed) -->
+</suite> <!-- Failed suite [Main_Suite] -->
